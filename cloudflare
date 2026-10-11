@@ -1,0 +1,13 @@
+    AU: 'au.cloudflare.cf', DE: 'eu.cloudflare.cf', GB: 'uk.cloudflare.cf', HK: 'hk.cloudflare.cf',
+    JP: 'jp.cloudflare.cf', KR: 'kr.cloudflare.cf', MY: 'my.cloudflare.cf', NL: 'nl.cloudflare.cf',
+    RU: 'ru.cloudflare.cf', SG: 'sg.cloudflare.cf', TW: 'tw.cloudflare.cf', US: 'us.cloudflare.cf'
+};
+const 星野 = {
+    JP:new Set(['NRT','KIX','FUK','OKA']),KR:new Set(['ICN']),HK:new Set(['HKG']),TW:new Set(['TPE','KHH','RMQ']),
+    SG:new Set(['SIN']),MY:new Set(['KUL','JHB']),AU:new Set(['SYD','MEL','BNE','PER','ADL']),
+    US:new Set(['SFO','LAX','SEA','SJC','DEN','ORD','EWR','IAD','MIA','HNL']),
+    DE:new Set(['FRA','MUC','BER','ZRH','VIE']),
+    GB:new Set(['LHR','MAN','EDI']),
+    NL:new Set(['AMS','CDG','MAD','FCO']),
+    RU:new Set(['DME','SVO','LED'])
+};
